@@ -7,11 +7,11 @@ import 'home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Supabase.initialize(
-    url: 'https://ucgwefllueigvqmzxdyg.supabase.co',
-    anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjZ3dlZmxsdWVpZ3ZxbXp4ZHlnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc3MDk3MjMsImV4cCI6MjA5MzI4NTcyM30.UBKUgQCCNrwMc7pr2eYgD4Ea3Mu3rRay4_dYL4jaMSY',
-  );
+  // await Supabase.initialize(
+  //   url: '',
+  //   anonKey:
+  //       '',
+  // );
   runApp(const MyApp());
 }
 
